@@ -12,37 +12,37 @@
 			containerPortal = CBD7D0DE2F6113B800AEB956 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CBD7D0E52F6113B800AEB956;
-			remoteInfo = SoundBar;
+			remoteInfo = MacVolumeHUD;
 		};
 		CBD7D1002F6113BA00AEB956 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = CBD7D0DE2F6113B800AEB956 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CBD7D0E52F6113B800AEB956;
-			remoteInfo = SoundBar;
+			remoteInfo = MacVolumeHUD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CBD7D0E62F6113B800AEB956 /* SoundBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBD7D0F52F6113BA00AEB956 /* SoundBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CBD7D0FF2F6113BA00AEB956 /* SoundBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD7D0E62F6113B800AEB956 /* MacVolumeHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacVolumeHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD7D0F52F6113BA00AEB956 /* MacVolumeHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacVolumeHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBD7D0FF2F6113BA00AEB956 /* MacVolumeHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacVolumeHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CBD7D0E82F6113B900AEB956 /* SoundBar */ = {
+		CBD7D0E82F6113B900AEB956 /* MacVolumeHUD */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SoundBar;
+			path = MacVolumeHUD;
 			sourceTree = "<group>";
 		};
-		CBD7D0F82F6113BA00AEB956 /* SoundBarTests */ = {
+		CBD7D0F82F6113BA00AEB956 /* MacVolumeHUDTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SoundBarTests;
+			path = MacVolumeHUDTests;
 			sourceTree = "<group>";
 		};
-		CBD7D1022F6113BA00AEB956 /* SoundBarUITests */ = {
+		CBD7D1022F6113BA00AEB956 /* MacVolumeHUDUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SoundBarUITests;
+			path = MacVolumeHUDUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +75,9 @@
 		CBD7D0DD2F6113B800AEB956 = {
 			isa = PBXGroup;
 			children = (
-				CBD7D0E82F6113B900AEB956 /* SoundBar */,
-				CBD7D0F82F6113BA00AEB956 /* SoundBarTests */,
-				CBD7D1022F6113BA00AEB956 /* SoundBarUITests */,
+				CBD7D0E82F6113B900AEB956 /* MacVolumeHUD */,
+				CBD7D0F82F6113BA00AEB956 /* MacVolumeHUDTests */,
+				CBD7D1022F6113BA00AEB956 /* MacVolumeHUDUITests */,
 				CBD7D0E72F6113B800AEB956 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +85,9 @@
 		CBD7D0E72F6113B800AEB956 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CBD7D0E62F6113B800AEB956 /* SoundBar.app */,
-				CBD7D0F52F6113BA00AEB956 /* SoundBarTests.xctest */,
-				CBD7D0FF2F6113BA00AEB956 /* SoundBarUITests.xctest */,
+				CBD7D0E62F6113B800AEB956 /* MacVolumeHUD.app */,
+				CBD7D0F52F6113BA00AEB956 /* MacVolumeHUDTests.xctest */,
+				CBD7D0FF2F6113BA00AEB956 /* MacVolumeHUDUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CBD7D0E52F6113B800AEB956 /* SoundBar */ = {
+		CBD7D0E52F6113B800AEB956 /* MacVolumeHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBD7D1092F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "SoundBar" */;
+			buildConfigurationList = CBD7D1092F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "MacVolumeHUD" */;
 			buildPhases = (
 				CBD7D0E22F6113B800AEB956 /* Sources */,
 				CBD7D0E32F6113B800AEB956 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CBD7D0E82F6113B900AEB956 /* SoundBar */,
+				CBD7D0E82F6113B900AEB956 /* MacVolumeHUD */,
 			);
-			name = SoundBar;
+			name = MacVolumeHUD;
 			packageProductDependencies = (
 			);
-			productName = SoundBar;
-			productReference = CBD7D0E62F6113B800AEB956 /* SoundBar.app */;
+			productName = MacVolumeHUD;
+			productReference = CBD7D0E62F6113B800AEB956 /* MacVolumeHUD.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CBD7D0F42F6113BA00AEB956 /* SoundBarTests */ = {
+		CBD7D0F42F6113BA00AEB956 /* MacVolumeHUDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBD7D10C2F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "SoundBarTests" */;
+			buildConfigurationList = CBD7D10C2F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "MacVolumeHUDTests" */;
 			buildPhases = (
 				CBD7D0F12F6113BA00AEB956 /* Sources */,
 				CBD7D0F22F6113BA00AEB956 /* Frameworks */,
@@ -131,18 +131,18 @@
 				CBD7D0F72F6113BA00AEB956 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CBD7D0F82F6113BA00AEB956 /* SoundBarTests */,
+				CBD7D0F82F6113BA00AEB956 /* MacVolumeHUDTests */,
 			);
-			name = SoundBarTests;
+			name = MacVolumeHUDTests;
 			packageProductDependencies = (
 			);
-			productName = SoundBarTests;
-			productReference = CBD7D0F52F6113BA00AEB956 /* SoundBarTests.xctest */;
+			productName = MacVolumeHUDTests;
+			productReference = CBD7D0F52F6113BA00AEB956 /* MacVolumeHUDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CBD7D0FE2F6113BA00AEB956 /* SoundBarUITests */ = {
+		CBD7D0FE2F6113BA00AEB956 /* MacVolumeHUDUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CBD7D10F2F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "SoundBarUITests" */;
+			buildConfigurationList = CBD7D10F2F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "MacVolumeHUDUITests" */;
 			buildPhases = (
 				CBD7D0FB2F6113BA00AEB956 /* Sources */,
 				CBD7D0FC2F6113BA00AEB956 /* Frameworks */,
@@ -154,13 +154,13 @@
 				CBD7D1012F6113BA00AEB956 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CBD7D1022F6113BA00AEB956 /* SoundBarUITests */,
+				CBD7D1022F6113BA00AEB956 /* MacVolumeHUDUITests */,
 			);
-			name = SoundBarUITests;
+			name = MacVolumeHUDUITests;
 			packageProductDependencies = (
 			);
-			productName = SoundBarUITests;
-			productReference = CBD7D0FF2F6113BA00AEB956 /* SoundBarUITests.xctest */;
+			productName = MacVolumeHUDUITests;
+			productReference = CBD7D0FF2F6113BA00AEB956 /* MacVolumeHUDUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = CBD7D0E12F6113B800AEB956 /* Build configuration list for PBXProject "SoundBar" */;
+			buildConfigurationList = CBD7D0E12F6113B800AEB956 /* Build configuration list for PBXProject "MacVolumeHUD" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CBD7D0E52F6113B800AEB956 /* SoundBar */,
-				CBD7D0F42F6113BA00AEB956 /* SoundBarTests */,
-				CBD7D0FE2F6113BA00AEB956 /* SoundBarUITests */,
+				CBD7D0E52F6113B800AEB956 /* MacVolumeHUD */,
+				CBD7D0F42F6113BA00AEB956 /* MacVolumeHUDTests */,
+				CBD7D0FE2F6113BA00AEB956 /* MacVolumeHUDUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		CBD7D0F72F6113BA00AEB956 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBD7D0E52F6113B800AEB956 /* SoundBar */;
+			target = CBD7D0E52F6113B800AEB956 /* MacVolumeHUD */;
 			targetProxy = CBD7D0F62F6113BA00AEB956 /* PBXContainerItemProxy */;
 		};
 		CBD7D1012F6113BA00AEB956 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CBD7D0E52F6113B800AEB956 /* SoundBar */;
+			target = CBD7D0E52F6113B800AEB956 /* MacVolumeHUD */;
 			targetProxy = CBD7D1002F6113BA00AEB956 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,19 +398,20 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9ML8D6SAST;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacVolumeHUD;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ko.SoundBar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ko.MacVolumeHUD;
+				PRODUCT_NAME = MacVolumeHUD;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -430,19 +431,20 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 9ML8D6SAST;
-				ENABLE_APP_SANDBOX = YES;
+				ENABLE_APP_SANDBOX = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MacVolumeHUD;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ko.SoundBar;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = ko.MacVolumeHUD;
+				PRODUCT_NAME = MacVolumeHUD;
 				REGISTER_APP_GROUPS = YES;
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
@@ -463,14 +465,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ko.SoundBarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ko.MacVolumeHUDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacVolumeHUD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacVolumeHUD";
 			};
 			name = Debug;
 		};
@@ -484,14 +486,14 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				MACOSX_DEPLOYMENT_TARGET = 26.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ko.SoundBarTests;
+				PRODUCT_BUNDLE_IDENTIFIER = ko.MacVolumeHUDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoundBar.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SoundBar";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacVolumeHUD.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MacVolumeHUD";
 			};
 			name = Release;
 		};
@@ -503,14 +505,14 @@
 				DEVELOPMENT_TEAM = 9ML8D6SAST;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ko.SoundBarUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = ko.MacVolumeHUDUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SoundBar;
+				TEST_TARGET_NAME = MacVolumeHUD;
 			};
 			name = Debug;
 		};
@@ -522,21 +524,21 @@
 				DEVELOPMENT_TEAM = 9ML8D6SAST;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = ko.SoundBarUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = ko.MacVolumeHUDUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = SoundBar;
+				TEST_TARGET_NAME = MacVolumeHUD;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CBD7D0E12F6113B800AEB956 /* Build configuration list for PBXProject "SoundBar" */ = {
+		CBD7D0E12F6113B800AEB956 /* Build configuration list for PBXProject "MacVolumeHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBD7D1072F6113BA00AEB956 /* Debug */,
@@ -545,7 +547,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBD7D1092F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "SoundBar" */ = {
+		CBD7D1092F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "MacVolumeHUD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBD7D10A2F6113BA00AEB956 /* Debug */,
@@ -554,7 +556,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBD7D10C2F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "SoundBarTests" */ = {
+		CBD7D10C2F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "MacVolumeHUDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBD7D10D2F6113BA00AEB956 /* Debug */,
@@ -563,7 +565,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CBD7D10F2F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "SoundBarUITests" */ = {
+		CBD7D10F2F6113BA00AEB956 /* Build configuration list for PBXNativeTarget "MacVolumeHUDUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CBD7D1102F6113BA00AEB956 /* Debug */,

@@ -1,13 +1,13 @@
 //
-//  SoundBarUITestsLaunchTests.swift
-//  SoundBarUITests
+//  MacVolumeHUDUITestsLaunchTests.swift
+//  MacVolumeHUDUITests
 //
 //  Created by 고정근 on 3/11/26.
 //
 
 import XCTest
 
-final class SoundBarUITestsLaunchTests: XCTestCase {
+final class MacVolumeHUDUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

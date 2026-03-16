@@ -1,0 +1,8 @@
+.DS_Store
+.build/
+.codex/
+.codex-cache/
+.codex-derived-data/
+DerivedData/
+dist/
+build_output.txt
