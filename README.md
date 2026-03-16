@@ -27,17 +27,6 @@ MacVolumeHUD needs Accessibility permission so it can intercept media keys and r
 
 If you enable permission while the app is already open, coming back to the app should refresh interception automatically.
 
-## Install With Homebrew
-
-Once a release zip is published, the app can be installed with Homebrew Cask.
-
-```bash
-brew tap YOUR_GITHUB_USERNAME/macvolumehud
-brew install --cask macvolumehud
-```
-
-The cask file is included at [macvolumehud.rb](/Users/ko/Desktop/SoundBar/Casks/macvolumehud.rb).
-
 ## Notes
 
 - If the default macOS volume UI still appears, check that Accessibility access is enabled for `MacVolumeHUD`
@@ -59,18 +48,3 @@ Main files:
 - [MediaKeyInterceptor.swift](/Users/ko/Desktop/SoundBar/MacVolumeHUD/MediaKeyInterceptor.swift)
 - [HUDWindowManager.swift](/Users/ko/Desktop/SoundBar/MacVolumeHUD/HUDWindowManager.swift)
 - [RetroHUDView.swift](/Users/ko/Desktop/SoundBar/MacVolumeHUD/RetroHUDView.swift)
-
-## Release For Homebrew
-
-This repo includes a small packaging script at [package_release.sh](/Users/ko/Desktop/SoundBar/scripts/package_release.sh).
-
-Maintainer flow:
-
-1. Build a release zip with `./scripts/package_release.sh`
-2. Upload `dist/MacVolumeHUD.zip` to a GitHub Release
-3. Replace `YOUR_GITHUB_USERNAME` in [macvolumehud.rb](/Users/ko/Desktop/SoundBar/Casks/macvolumehud.rb)
-4. Publish that cask from a tap repo such as `homebrew-macvolumehud`
-
-If you want Homebrew installs to work without changing the cask every release, keep the uploaded asset name fixed as `MacVolumeHUD.zip`.
-
-The packaging script defaults to an unsigned Release build so it can run without a local signing certificate. For public distribution, signing and notarization are still recommended.
