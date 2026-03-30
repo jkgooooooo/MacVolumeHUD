@@ -2,6 +2,12 @@
 
 MacVolumeHUD is a small macOS utility that replaces the newer corner-style volume popover with a centered HUD inspired by older versions of macOS.
 
+## Why I Made This
+
+After updating to macOS Tahoe, the volume UI changed at some point and started showing up as a small indicator in the top-right corner. I kept missing it.
+
+I preferred the older Apple volume HUD that appeared in the middle of the screen and was immediately readable, so I built this app to bring that style back.
+
 ## Preview
 
 <table>
@@ -14,12 +20,6 @@ MacVolumeHUD is a small macOS utility that replaces the newer corner-style volum
     </td>
   </tr>
 </table>
-
-## Why I Made This
-
-After updating to macOS Tahoe, the volume UI changed at some point and started showing up as a small indicator in the top-right corner. I kept missing it.
-
-I preferred the older Apple volume HUD that appeared in the middle of the screen and was immediately readable, so I built this app to bring that style back.
 
 ## What The App Does
 
