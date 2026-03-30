@@ -2,10 +2,10 @@ cask "macvolumehud" do
   version :latest
   sha256 :no_check
 
-  url "https://github.com/YOUR_GITHUB_USERNAME/MacVolumeHUD/releases/latest/download/MacVolumeHUD.zip"
+  url "https://github.com/jkgooooooo/MacVolumeHUD/releases/latest/download/MacVolumeHUD.zip"
   name "MacVolumeHUD"
   desc "Restores the classic centered macOS volume HUD"
-  homepage "https://github.com/YOUR_GITHUB_USERNAME/MacVolumeHUD"
+  homepage "https://github.com/jkgooooooo/MacVolumeHUD"
 
   auto_updates true
 

@@ -20,17 +20,28 @@ I preferred the older Apple volume HUD that appeared in the middle of the screen
 
 MacVolumeHUD needs Accessibility permission so it can intercept media keys and replace the default system HUD behavior.
 
-1. Run the app from Xcode
-2. Grant Accessibility access when prompted
-3. Return to the app
-4. Use your keyboard volume keys normally
+1. Install MacVolumeHUD
+2. Open the app
+3. Grant Accessibility access when prompted
+4. Return to the app
+5. Use your keyboard volume keys normally
 
 If you enable permission while the app is already open, coming back to the app should refresh interception automatically.
+
+## Install With Homebrew
+
+```bash
+brew tap jkgooooooo/macvolumehud
+brew install --cask macvolumehud
+```
+
+Then launch `MacVolumeHUD` from your Applications folder and complete the Accessibility permission prompt.
 
 ## Notes
 
 - If the default macOS volume UI still appears, check that Accessibility access is enabled for `MacVolumeHUD`
 - If needed, quit and reopen the app once after changing permission settings
+- Homebrew installs the app, but Accessibility permission still needs to be granted manually on first launch
 - HUD size changes can be tested directly from the settings window
 
 ## Build
