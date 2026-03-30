@@ -4,10 +4,16 @@ MacVolumeHUD is a small macOS utility that replaces the newer corner-style volum
 
 ## Preview
 
-<p align="center">
-  <img src="docs/images/main-window.png" alt="MacVolumeHUD settings window" width="360" />
-  <img src="docs/images/hud-preview.png" alt="MacVolumeHUD HUD preview" width="180" />
-</p>
+<table>
+  <tr>
+    <td valign="top" align="center">
+      <img src="docs/images/main-window.png" alt="MacVolumeHUD settings window" width="360" />
+    </td>
+    <td valign="top" align="center">
+      <img src="docs/images/hud-preview.png" alt="MacVolumeHUD HUD preview" width="180" />
+    </td>
+  </tr>
+</table>
 
 ## Why I Made This
 
