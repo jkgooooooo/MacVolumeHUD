@@ -15,11 +15,17 @@ I preferred the older Apple volume HUD that appeared in the middle of the screen
     <td valign="top" align="center">
       <img src="docs/images/main-window.png" alt="MacVolumeHUD settings window" width="360" />
     </td>
-    <td valign="top" align="center">
-      <img src="docs/images/hud-preview.png" alt="MacVolumeHUD HUD preview" width="180" />
+    <td valign="middle" align="center">
+      <img
+        src="docs/images/hud-preview.png"
+        alt="MacVolumeHUD HUD preview"
+        width="180"
+        style="border-radius: 12px;"
+      />
     </td>
   </tr>
 </table>
+
 
 ## What The App Does
 
